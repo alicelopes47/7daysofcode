@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: #202020;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+span {
+    color: #202020;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
