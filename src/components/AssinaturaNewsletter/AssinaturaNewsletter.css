@@ -45,14 +45,3 @@ form {
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
 }
 
-button {
-  font-family: "Montserrat", sans-serif;
-  width: 40%;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  color: white;
-  border: none;
-  background: #ffcb47;
-}
-

@@ -7,6 +7,6 @@ interface Props {
 
 export const FormInput = ({placeholder, type}: Props) => {
     return (
-        <input type={type} placeholder={placeholder} />
+        <input className='form-input' type={type} placeholder={placeholder} />
     )
 };

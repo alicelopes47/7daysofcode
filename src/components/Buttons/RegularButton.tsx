@@ -1,5 +1,5 @@
 export const RegularButton = () => {
     return (
-        <button>Assinar newsletter</button>
+        <button className="regular-button">Assinar newsletter</button>
     )
 }
