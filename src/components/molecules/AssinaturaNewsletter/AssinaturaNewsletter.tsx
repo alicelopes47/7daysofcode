@@ -1,6 +1,6 @@
 import "./AssinaturaNewsletter.css";
-import AssinaturaImage from "../../assets/imagem-hero 1.png";
-import { FormInput } from "../Inputs/FormInput";
+import AssinaturaImage from "../../../assets/imagem-hero 1.png";
+import { RegularButton, FormInput } from '../../atoms/atoms'
 
 export const AssinaturaNewsletter = () => {
   return (
@@ -15,7 +15,7 @@ export const AssinaturaNewsletter = () => {
         </p>
         <form className="newsletter-form">
           <FormInput placeholder="Insira seu e-mail" type="email" />
-          <button>Assinar newsletter</button>
+          <RegularButton label="Assinar newsletter" />
         </form>
       </div>
       <img
